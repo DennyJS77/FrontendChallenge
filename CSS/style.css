@@ -1,0 +1,141 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+ }
+
+ h1 {
+   font-size: 18px;
+   text-align: center;
+   padding-top: 18px;
+   padding-bottom: 16px;
+   padding-right: 45px;
+   color: white;
+ }
+
+ h2, span {
+   display: inline-block;
+   vertical-align: middle;
+}
+ }
+
+ p {
+   font-size: 16px;
+   font-color: #757575;
+ }
+
+
+ .nav {
+   position: fixed;
+   width: 360px;
+   top:0;
+   background-color: #455a64;
+   padding-bottom: 16px;
+ }
+
+
+.arrow-back{
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-left: 16px;
+  width: 10%;
+  height: 48px;
+  float: left;
+  color: white;
+
+}
+
+
+ .current{
+   box-sizing: border-box;
+   float:right;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 20px;
+   padding-left: 5px;
+   padding-top: 6px;
+   height: 24px;
+   width: 80%;
+   background-color: #cfd8dc;
+ }
+ .destination{
+   box-sizing: border-box;
+   margin-top: 12px;
+   margin-right: 20px;
+   padding-left: 5px;
+   padding-top: 6px;
+   float:right;
+   height: 24px;
+   width: 80%;
+   background-color: #cfd8dc;
+
+ }
+
+ .dest-icon {
+   box-sizing: border-box;
+   padding-top: 10px;
+   padding-left: 16px;
+   width: 10%;
+   height: 48px;
+   float: left;
+   color: white;
+
+ }
+
+ .direction {
+   box-sizing: border-box;
+   padding-left: 20px;
+   padding-top: 20px;
+   height: 48px;
+   width: 360px;
+   background-color: white;
+ }
+.bus-icon {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-left: 16px;
+  width: 10%;
+  height: 48px;
+  float: left;
+}
+.content {
+      box-sizing: border-box;
+      height: 48px;
+      overflow-y: auto;
+}
+
+.arrival-time {
+      box-sizing: border-box;
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 35%;
+      height: 48px;
+      float: right;
+}
+
+.buses{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 48px;
+    width: 55%;
+    height: 48px;
+    float: left;
+}
+
+body {
+  background-color: black;;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+}
+
+.bus-routes{
+  margin-top: 165px;
+  width: 100%;
+  background-color: white;
+  overflow-y: auto;
+
+}
